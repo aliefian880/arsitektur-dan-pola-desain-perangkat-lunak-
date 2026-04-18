@@ -1,0 +1,170 @@
+/* ==========================
+STYLE CSS - CV Global Indotech
+========================== */
+
+
+/* style.css */
+
+
+/* Styling untuk header dengan background */
+
+.header-background {
+    background-image: url('https://www.anugrahsentosa.com/wp-content/uploads/2024/10/Alat-Teknik.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+
+/* Overlay agar teks tetap terbaca */
+
+.header-overlay {
+    background-color: rgba(0, 0, 0, 0.65);
+    padding: 40px 20px;
+}
+
+
+/* Reset dan font */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+
+/* Header */
+
+header h1 {
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+header p {
+    font-size: 0.95rem;
+}
+
+
+/* Navigasi */
+
+.nav-link {
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+    color: #ffc107 !important;
+}
+
+
+/* Tombol utama */
+
+.btn-outline-primary {
+    border-radius: 25px;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-outline-primary:hover {
+    background-color: #0d6efd;
+    color: #fff;
+    transform: scale(1.05);
+}
+
+
+/* Tombol WhatsApp */
+
+.btn-success {
+    border-radius: 25px;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-success:hover {
+    background-color: #198754;
+    transform: scale(1.05);
+}
+
+
+/* Section umum */
+
+section h2 {
+    font-weight: bold;
+    margin-bottom: 1.2rem;
+    color: #0d6efd;
+}
+
+section h3 {
+    color: #333;
+    font-weight: 600;
+}
+
+
+/* Artikel */
+
+#artikel article {
+    background: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease-in-out;
+}
+
+#artikel article:hover {
+    transform: translateY(-5px);
+}
+
+
+/* Formulir Kontak */
+
+form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+form .form-label {
+    font-weight: 500;
+}
+
+form button {
+    border-radius: 25px;
+}
+
+
+/* Google Maps */
+
+#kontak iframe {
+    border-radius: 12px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+}
+
+
+/* Footer */
+
+footer {
+    font-size: 0.9rem;
+    background: #212529;
+}
+
+footer p {
+    margin: 0;
+}
+
+
+/* Responsif */
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.8rem;
+    }
+    section h2 {
+        font-size: 1.5rem;
+    }
+    .btn-group .btn {
+        font-size: 0.9rem;
+        padding: 8px 14px;
+    }
+}
